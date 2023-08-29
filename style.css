@@ -280,7 +280,6 @@ small{
 .about-us{
     text-align: center;
     margin: 0px 120px 80px 120px;
-    background-color: gainsboro;
     padding: 30px;
     border-radius: 8px;
 }
@@ -289,10 +288,10 @@ small{
     color: #272727;
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .about-us p{
-    color: rebeccapurple;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
