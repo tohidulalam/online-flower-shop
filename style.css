@@ -36,7 +36,7 @@ section{
     padding-bottom: 30px;
 }
 
-.banner-button{
+button{
     padding: 20px 43px;
     border-radius: 8px;
     background-color: #E55473;
@@ -127,4 +127,173 @@ section{
 }
 .icon{
     text-align: center;
+}
+
+.deals-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 120px;
+
+}
+
+.deals-text{
+    width: 50%;
+    padding-left:180px;
+}
+
+.deals-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.deals-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    }
+
+.deals-image{
+    width: 50%;
+    padding: 0;
+}
+
+.deals-image img{
+    height: 350px;
+    width: 280px;
+    padding: 80px 50px;
+}
+
+.colour-text{
+    color: #E55473;
+}
+
+.social-text{
+    text-align: center;
+}
+
+.social-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.social-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.social-flower-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.flower-images{
+    margin-top: 50px;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 100px;
+}
+
+.subscribe-email-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 400px;
+    background-image: url("images/Rectangle\ 9.png");
+    border-radius: 8px;
+    margin: 0px 150px 100px 120px;
+}
+
+.subscribe-text{
+    text-align: center;
+}
+.subscribe-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subscribe-text p{
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+input{
+    border-radius: 8px;
+    background-color: #FFF;
+    width: 500px;
+    height: 55px;
+    border: none;
+    padding-left: 16px;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#111010;;
+    width: 100%;
+    height: 300px;
+}
+
+.footer-text h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-text p{
+    color:rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px; 
+    font-weight: 400;
+
+}
+
+.about-us{
+    text-align: center;
+    margin: 0px 120px 80px 120px;
+    background-color: gainsboro;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.about-us h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about-us p{
+    color: rebeccapurple;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
